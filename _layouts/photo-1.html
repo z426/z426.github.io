@@ -1,0 +1,8 @@
+---
+layout: default
+disqus: false
+archive: false
+<!-- post_class: photo-template -->
+---
+
+<img src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}" >
