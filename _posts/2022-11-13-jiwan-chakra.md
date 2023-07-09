@@ -4,9 +4,10 @@ title:  "जीवन चक्र"
 author: Reluctant Writer
 categories: [ Poem, Hindi Poetry, Life, Journey ]
 image: assets/images/PostImage/Jiwan_Chakra/Jiwan_Chakra_1.png
+imageCaption: "Art by Author"
 #beforetoc: "<center style =font-size:15px> Art by author </center>" 
-beforetoc: " &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Art by author"
-toc: true
+# beforetoc: " &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Art by author"
+# toc: true
 #tags: [hindi, जीवन चक्र]
 #description: abcd
 featured: true

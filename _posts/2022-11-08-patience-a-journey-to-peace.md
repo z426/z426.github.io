@@ -4,9 +4,10 @@ title:  "Patience: A journey to peace"
 author: Reluctant Writer
 categories: [ Poem, Patience, Peace, Life, Journey ]
 image: assets/images/PostImage/Patience/Patience.png
+imageCaption: "A journey to peace. [Image by Author]"
 #beforetoc: "<center>A journey to peace. [Image by Author] </center>"
-beforetoc: "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp A journey to peace. [Image by Author]" 
-toc: true
+# beforetoc: "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp A journey to peace. [Image by Author]" 
+# toc: true
 #description: abcd
 featured: true
 ---
