@@ -15,13 +15,32 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape | truncatewords:30 }}</description>
+        <creator>{{ site.authors[post.author].display_name  }}</creator>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <media url="{{ site.url}}/{{ post.image}}" medium="image"></media>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
         {% for tag in post.tags %}
         <category>{{ tag | xml_escape }}</category>
         {% endfor %}
         {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
+      </item>
+    {% endfor %}
+    {% for photo in site.photos limit:10 %}
+      <item>
+        <title>{{ photo.title | xml_escape }}</title>
+        <description>{{ photo.imageCaption | xml_escape }}</description>
+        <creator>{{ site.authors[photo.author].display_name  }}</creator>
+        <pubDate>{{ photo.date | date_to_rfc822 }}</pubDate>
+        <media url="{{ site.url}}/{{ post.image}}" medium="image"></media>
+        <link>{{ photo.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ photo.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in photo.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in photo.categories %}
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
       </item>
