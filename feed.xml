@@ -34,7 +34,7 @@ layout: null
         <description>{{ photo.imageCaption | xml_escape }}</description>
         <creator>{{ site.authors[photo.author].display_name  }}</creator>
         <pubDate>{{ photo.date | date_to_rfc822 }}</pubDate>
-        <media url="{{ site.url}}/{{ post.image}}" medium="image"></media>
+        <media url="{{ site.url}}/{{ photo.image}}" medium="image"></media>
         <link>{{ photo.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ photo.url | prepend: site.baseurl | prepend: site.url }}</guid>
         {% for tag in photo.tags %}
