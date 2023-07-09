@@ -5,8 +5,6 @@ author: Reluctant Writer
 categories: [Life, Diwali, Adulthood, Childhood, City Living]
 image: assets/images/PostImage/Lit_your_life_find_yourself_again/diwali.png
 imageCaption: "दिवाली के सन्नाटे, मन का शोर और बचपन की यादें !"
-beforetoc: "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp दिवाली के सन्नाटे, मन का शोर और बचपन की यादें !" 
-toc: true
 featured: false
 ---
 
