@@ -4,7 +4,7 @@ title:  "From Dumbledore's wisdom pot"
 author: Reluctant Writer
 categories: [Fear]
 image: assets/images/PostImage/From_Dumbledore_wisdom_pot/From_Dumbledore_wisdom_pot.jpg
-imageCaption: "Image Source: Pinterest. Poem by : Khalil Gibran"
+imageCaption: "Image Source: Pinterest <br> Poem by : Khalil Gibran"
 ---
 
 As we know, we are not born with fear. An infant does not know what fear is. As he starts to grow he slowly develops this feeling. <br>
