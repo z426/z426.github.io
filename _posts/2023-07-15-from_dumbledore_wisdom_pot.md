@@ -7,7 +7,7 @@ image: assets/images/PostImage/From_Dumbledore_wisdom_pot/From_Dumbledore_wisdom
 imageCaption: "Image Source: Pinterest"
 ---
 
-As we know, we are not born with fear of emotions. An infant does not know what fear is. As he starts to grow he slowly develops this feeling. <br>
+As we know, we are not born with fear. An infant does not know what fear is. As he starts to grow he slowly develops this feeling. <br>
 
 <!-- As Dumbledore puts it: <i> <b>Fear of a name increases fear of the thing itself.</b></i> -->
 
