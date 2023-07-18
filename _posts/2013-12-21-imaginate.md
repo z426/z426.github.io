@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Imaginate !! cause there is no limitation on imagination....."
+title:  "Imaginate !! because there is no limitation on imagination....."
 author: Reluctant Writer
 categories: [Peace, Life ,Nature]
 image: assets/images/PostImage/Imaginate/Imaginate.jpg
