@@ -2,7 +2,7 @@
 layout: post
 title:  "From Dumbledore's wisdom pot"
 author: Reluctant Writer
-categories: [Fear]
+categories: [Fear, Poem]
 image: assets/images/PostImage/From_Dumbledore_wisdom_pot/From_Dumbledore_wisdom_pot.jpg
 imageCaption: "Image Source: Pinterest <br> Poem by : Khalil Gibran"
 ---
