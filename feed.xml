@@ -2,7 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0.1" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0.1" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
@@ -11,11 +11,19 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    {% assign posts = site.posts %}
+    {% assign photos = site.photos | reverse %}
+    {% assign feed = posts | concat: photos | sort | reverse %}
+
+    {% for post in feed limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape | truncatewords:30 }}</description>
         <creator>{{ site.authors[post.author].display_name  }}</creator>
+        <author>{{ site.authors[post.author].display_name  }}</author>
+        <media:group>
+          <media:content medium="image" url="{{ site.url}}{{ post.image}}" type="image/jpeg"/>
+        </media:group>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <media url="{{ site.url}}/{{ post.image}}" medium="image"></media>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
@@ -24,23 +32,6 @@ layout: null
         <category>{{ tag | xml_escape }}</category>
         {% endfor %}
         {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
-      </item>
-    {% endfor %}
-    {% for photo in site.photos limit:10 %}
-      <item>
-        <title>{{ photo.title | xml_escape }}</title>
-        <description>{{ photo.imageCaption | xml_escape }}</description>
-        <creator>{{ site.authors[photo.author].display_name  }}</creator>
-        <pubDate>{{ photo.date | date_to_rfc822 }}</pubDate>
-        <media url="{{ site.url}}/{{ photo.image}}" medium="image"></media>
-        <link>{{ photo.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ photo.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in photo.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in photo.categories %}
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
       </item>
