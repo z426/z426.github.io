@@ -22,7 +22,7 @@ layout: null
         <creator>{{ site.authors[post.author].display_name  }}</creator>
         <author>{{ site.authors[post.author].display_name  }}</author>
         <media:group>
-          <media:content medium="image" url="{{ site.url}}{{ post.image}}" type="image/jpeg"/>
+          <media:content medium="image" url="{{ site.url}}/{{ post.image}}" type="image/jpeg"/>
         </media:group>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <media url="{{ site.url}}/{{ post.image}}" medium="image"></media>
