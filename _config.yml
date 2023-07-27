@@ -7,7 +7,7 @@ favicon: './assets/images/logo.png'
 baseurl: ''
 google_analytics: 'G-XKJSG9B26H'
 #disqus: 'demowebsite'
-mailchimp-list: 'https://mailchi.mp/cadfb46bda99/oeuvre-newsletter'
+mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
 
