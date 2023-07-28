@@ -10,6 +10,7 @@ google_analytics: 'G-XKJSG9B26H'
 mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
+subscribeBgColor: bfe0bf;
 
 # Authors
 authors:
