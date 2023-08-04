@@ -2,7 +2,7 @@
 layout: post
 title:  "Lit your life, find yourself again!"
 author: Reluctant Writer
-categories: [Life, Diwali, Adulthood, Childhood, City Living]
+categories: [Life, Diwali, Adulthood, Childhood, City Living,Apologue]
 image: assets/images/PostImage/Lit_your_life_find_yourself_again/diwali.png
 imageCaption: "दिवाली के सन्नाटे, मन का शोर और बचपन की यादें !"
 featured: false
