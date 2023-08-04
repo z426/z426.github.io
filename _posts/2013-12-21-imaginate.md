@@ -2,7 +2,7 @@
 layout: post
 title:  "Imaginate !! because there is no limitation on imagination....."
 author: Reluctant Writer
-categories: [Peace, Life ,Nature]
+categories: [Peace, Life ,Nature,Apologue]
 image: assets/images/PostImage/Imaginate/Imaginate.jpg
 imageCaption: "The Captured [Image by Author]"
 featured: true
