@@ -5,7 +5,7 @@ author: Reluctant Writer
 categories: [Peace, Life ,Nature,Apologue]
 image: assets/images/PostImage/Imaginate/Imaginate.jpg
 imageCaption: "The Captured [Image by Author]"
-featured: true
+featured: false
 ---
 
 I sit in my room near window, clouds waft by dreamily, a coconut tree waves in a slow, sensual dance no human could execute, the lazily undulating landscape is visible through a curtain of light drizzle, and a vast expanse of never-ending sky spreads over the horizon.
