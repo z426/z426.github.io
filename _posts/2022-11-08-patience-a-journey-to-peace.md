@@ -9,7 +9,7 @@ imageCaption: "A journey to peace. [Image by Author]"
 # beforetoc: "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp A journey to peace. [Image by Author]" 
 # toc: true
 #description: abcd
-featured: false
+featured: true
 ---
 
 I sit under the tree <br>
