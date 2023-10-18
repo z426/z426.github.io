@@ -106,7 +106,7 @@ As <i> she </i> has quoted -  <br> <rw-custom-highlight-text>
 <i>"We have to face adversity as an asset." <br> 
 "विप्पति को संपत्ति समझ झेलना है।" </i> </rw-custom-highlight-text>
 
-I, A 30 year old child <br>
+I, a 30 year old child <br>
 have nothing to offer  <br>
 Except the tears of mine <br>
 For the love we shared, <br>
